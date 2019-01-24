@@ -1,0 +1,105 @@
+﻿
+
+html {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    color: #303a36;
+    background: #fff;
+    font: 18px/1.725 "AvenirNextLTW01-Medium", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+table {
+    margin: auto;
+}
+
+.TopBar {
+    height: 45px;
+    background-color: #003455;
+}
+
+.TopBarTable {
+    width: 100%;
+    height: 100%;
+    max-width: 1320px;
+}
+
+.TopBarTable td {
+vertical-align: middle;
+}
+
+.TopBarTable td img {
+    line-height: normal;
+}
+
+@media (max-width: 600px) {
+    .TopBarTable img {
+        width: 80%;
+    }
+}
+
+
+
+.LightBlue {
+    color: #00AEEF;
+}
+
+.LightBlueBk {
+    color: white;
+    background-color: #00AEEF;
+}
+.DarkBlueBk {
+    color: white;
+    background-color: #003455;
+}
+
+
+.DarkBlue {
+    color: #003455;
+}
+
+.Orange {
+    color: #D28E00;
+}
+
+.LightGreen {
+    color: #AEC633;
+}
+
+.Divs {
+    width: 100%;
+    text-align: center;
+}
+
+                .FormTable {
+                    vertical-align: top;
+                    font-size: 20px;
+                }
+
+                    .FormTable h2 {
+                        color: #003455;
+                    }
+
+                .BoilerPlate {
+                    text-align: center;
+                    padding: 40px;
+                    padding-left: 15%;
+                    padding-right: 15%;
+                    color: white;
+                    max-width: 1300px;
+                    width: 60%;
+                    margin: auto;
+                }
+
+                @media (max-width: 800px) {
+                    .BoilerPlate {
+                        width: 90%;
+                        padding: 10px;
+                        padding-left: 5%;
+                        padding-right: 5%;
+                    }
+                }
